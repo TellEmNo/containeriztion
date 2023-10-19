@@ -54,7 +54,7 @@ ___
 1. docker images
 2. docker ps -a
 3. docker rmi 6b362a9f73eb --force
-4. docker rm $(docker ps -aq)
+4. docker rm $(docker ps -aq) или docker rm $(docker ps -a -q -f status=exited)
 5. docker ps -a
 ___
 
